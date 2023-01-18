@@ -1,0 +1,23 @@
+{
+  "name": "messenger-socket",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdessittir/messenger-socket.git"
+  },
+  "author": "Abdessittir Harkati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdessittir/messenger-socket/issues"
+  },
+  "homepage": "https://github.com/Abdessittir/messenger-socket#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
