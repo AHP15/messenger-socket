@@ -2,6 +2,7 @@
   "name": "messenger-socket",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js"
