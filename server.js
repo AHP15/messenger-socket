@@ -9,8 +9,15 @@ const io = new Server(httpServer, {
 });
 
 io.on('connection', (socket) => {
-  socket.on('user', (email) => {
-    socket.join(email);
+  socket.on('user', (id) => {
+    console.log(id);
+    socket.join(id);
+  });
+
+  socket.on('typing', ({chatId, users}) =>{
+    users.forEach(id => {
+      socket.to(id).emit('typing-received', chatId);
+    })
   });
 });
 
