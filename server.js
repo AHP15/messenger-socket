@@ -8,7 +8,7 @@ dotenv.config();
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://messenger-roan.vercel.app/",
   }
 });
 
