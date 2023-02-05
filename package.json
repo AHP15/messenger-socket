@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Abdessittir/messenger-socket#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
     "nodemon": "^2.0.20",
     "socket.io": "^4.5.4"
   }
